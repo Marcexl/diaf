@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIAF</title>
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '368493604838460');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=368493604838460&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <meta name="facebook-domain-verification" content="gz30w14vt06c8wlw6vxpkbcusvxi1h" />
+</head>
+
+<body>
+    <div class="container-fluid p-0 section-nav">
+        <div class="row no-gutters">
+            <div class="col">
+                <div class="nav">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="navbar navbar-expand-lg navbar-light">
+                                    <div class="logo" data-aos="fade-top" data-aos-duration="1000">
+                                        <a href="index.html"><img src="img/logo-header.png" alt="DIAF"></a>
+                                    </div>
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                        data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                                        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#steps">Diaf en 7 Pasos</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#why">¿Por qué Diaf?</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link nav-button" href="#turn">¡Quiero un turno!</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0 section-banner">
+        <div class="row no-gutters">
+            <div class="col">
+                <div class="header-banner" id="turns">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-7 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
+                                <div class="content-text">
+                                    <h2><span>¡Potenciá tu belleza</span> <br> de manera responsable!</h2>
+                                    <p>Somos una nueva plataforma que te ayuda a simplificar el proceso previo al
+                                        momento de realizarte una cirugía de aumento mamario.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
+                                <div class="section-form">
+                                    <h3>¡Agendá tu consulta virtual <span>HOY</span> para sacarte todas las dudas!</h3>
+                                    <div class="row">
+                                        <form id="contactForm">
+                                            <div class="form-group">
+                                                <input type="text" id="name" class="form-control" placeholder="Nombre">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="number" id="phone" class="form-control"
+                                                    placeholder="Teléfono">
+                                            </div>
+                                            <span class="send">Complete Correctamete todos los campos.</span>
+                                            <input id="campaign" name="campaign" type="hidden" value="">
+                                            <button type="submit" id="btn-send" class="btn btn-primary">¡QUIERO CONOCER
+                                                PRECIOS!</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid  section-steps" id="steps">
+        <div class="row no-gutters">
+            <div class="col-lg-12 col-xl-6 pad-left" data-aos="fade-up" data-aos-duration="1500">
+                <div class="container p-0">
+                    <div class="step">
+                        <div class="logo">
+                            <img src="img/logo-header.png" alt="">
+                        </div>
+                        <p>EN <span>7</span> PASOS</p>
+                    </div>
+                    <div class="flecha" data-aos="zoom-in">
+                        <a href="#acepto" class=""><img src="img/scroll-down.png" alt="Flecha"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-xl-6 pad-right" data-aos="fade-in" data-aos-duration="1600">
+                <div class="container p-0">
+                    <div class="zoom">
+                        <div class="img-zoom">
+                            <img src="img/zoom.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="row">
+                        <div class="col-4 col-sm-3 col-md-2 col-lg-1 pad-40 bg-step-0">
+                            <div class="text-value">
+                                <h4>1</h4>
+                            </div>
+                        </div>
+                        <div class="col-8 col-md-10 col-lg-11 pad-40 bg-step-1">
+                            <div class="text-value mobile-space">
+                                <p>Coordinás por WhatsApp una videollamada para hablar con un doctor de DIAF.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="row">
+                        <div class="col-4 col-sm-3 col-md-2 col-lg-1 pad-40 bg-step-0">
+                            <div class="text-value">
+                                <h4>2</h4>
+                            </div>
+                        </div>
+                        <div class="col-8 col-md-10 col-lg-11 pad-40 bg-step-1">
+                            <div class="text-value mobile-space">
+                                <p>En la videollamada el doctor va hacerte todas las preguntas necesarias para poder
+                                    elaborar una ficha técnica muy completa de tu situación.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="row">
+                        <div class="col-4 col-sm-3 col-md-2 col-lg-1 pad-40 bg-step-0">
+                            <div class="text-value">
+                                <h4>3</h4>
+                            </div>
+                        </div>
+                        <div class="col-8 col-md-10 col-lg-11 pad-40 bg-step-1">
+                            <div class="text-value mobile-space">
+                                <p>El doctor te contará, en detalle, cómo es el procedimiento de Aumento Mamario, para
+                                    que
+                                    vos puedas despejar todas las dudas y tengas total transparencia del proceso.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="row">
+                        <div class="col-4 col-sm-3 col-md-2 col-lg-1 pad-40 bg-step-0">
+                            <div class="text-value">
+                                <h4>4</h4>
+                            </div>
+                        </div>
+                        <div class="col-8 col-md-10 col-lg-11 pad-40 bg-step-1">
+                            <div class="text-value mobile-space">
+                                <p>Según la precalificación realizada, las prótesis seleccionadas y la disponibilidad
+                                    que
+                                    tengan los cirujanos miembros del programa, te podremos confirmar el mejor precio
+                                    disponible para esta intervención.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="row">
+                        <div class="col-4 col-sm-3 col-md-2 col-lg-1 pad-40 bg-step-0">
+                            <div class="text-value">
+                                <h4>5</h4>
+                            </div>
+                        </div>
+                        <div class="col-8 col-md-10 col-lg-11 pad-40 bg-step-1">
+                            <div class="text-value mobile-space">
+                                <p>Con tu ok final se seña y se elige una fecha probable de cirugía. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="row">
+                        <div class="col-4 col-sm-3 col-md-2 col-lg-1 pad-40 bg-step-0">
+                            <div class="text-value">
+                                <h4>6</h4>
+                            </div>
+                        </div>
+                        <div class="col-8 col-md-10 col-lg-11 pad-40 bg-step-1">
+                            <div class="text-value mobile-space">
+                                <p>Antes de esa fecha deberás realizarte una serie de análisis prequirúrgicos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="row">
+                        <div class="col-4 col-sm-3 col-md-2 col-lg-1 pad-40 bg-step-0 last-space">
+                            <div class="text-value">
+                                <h4>7</h4>
+                            </div>
+                        </div>
+                        <div class="col-8 col-md-10 col-lg-11 pad-40 bg-step-1 last-space">
+                            <div class="text-value">
+                                <p>Con todo ok, realizarás un chequeo de forma presencial con el cirujano para confirmar
+                                    el
+                                    diagnóstico y seguir todo el proceso bajo su mando.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid  section-why" id="why">
+        <div class="row no-gutters">
+            <div class="flecha" data-aos="zoom-in">
+                <a href="#acepto" class=""><img src="img/scroll-down.png" alt="Flecha"></a>
+            </div>
+            <div class="col-12">
+                <div class="container p-0">
+                    <div class="why-text" data-aos="zoom-out-up">
+                        <h3><span>¿Por qué</span> elegir Diaf?</h3>
+                        <p>Diaf, transparencia de principio a fin.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                        <div class="row">
+                            <div class="col-3 col-sm-2 col-lg-2 pad-40 bg-step-0">
+                                <div class="text-value">
+                                    <img src="img/money.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-9 col-sm-10 col-lg-10 pad-40 bg-step-1">
+                                <div class="text-value mobile-space">
+                                    <p>Ofrecemos la mejor opción en tiempo y dinero.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                        <div class="row">
+                            <div class="col-3 col-sm-2 col-lg-2 pad-40 bg-step-0">
+                                <div class="text-value">
+                                    <img src="img/event.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-9 col-sm-10 col-lg-10 pad-40 bg-step-1">
+                                <div class="text-value mobile-space">
+                                    <p>Contamos con un proceso rápido de precalificación.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                        <div class="row">
+                            <div class="col-3 col-sm-2 col-lg-2 pad-40 bg-step-0">
+                                <div class="text-value">
+                                    <img src="img/laptop.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-9 col-sm-10 col-lg-10 pad-40 bg-step-1">
+                                <div class="text-value mobile-space">
+                                    <p>Nuestro servicio es innovador y digitalizado.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                        <div class="row">
+                            <div class="col-3 col-sm-2 col-lg-2 pad-40 bg-step-0">
+                                <div class="text-value">
+                                    <img src="img/message.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-9 col-sm-10 col-lg-10 pad-40 bg-step-1 message">
+                                <div class="text-value mobile-space">
+                                    <p>Te brindamos información ordenada, con una opinión técnica y totalmente
+                                        personalizada
+                                        para acompañarte a tomar la mejor decisión.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                        <div class="row">
+                            <div class="col-3 col-sm-2 col-lg-2 pad-40 bg-step-0">
+                                <div class="text-value">
+                                    <img src="img/medal.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-9 col-sm-10 col-lg-10 pad-40 bg-step-1">
+                                <div class="text-value mobile-space">
+                                    <p>Te contactamos con profesionales avalados por nuestra plataforma.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container space-message">
+            <div class="row no-gutters">
+                <div class="col-md-12 col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="container p-0">
+                        <div class="box-text">
+                            <div class="icon">
+                                <img src="img/forum.png" alt="">
+                            </div>
+                            <p>En <strong>Diaf</strong> estamos a tu disposicion para lo que necesites, nos podes
+                                escribir a
+                                toda hora, nunca es molestia, siempre estamos listos para ayudarte.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="container p-0">
+                        <div class="box-img">
+                            <div class="img-doctor">
+                                <img src="img/imagen-servicio-diaf.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid  section-turn" id="turn">
+        <div class="row no-gutters">
+            <div class="col">
+                <div class="container p-0" data-aos="fade-in" data-aos-anchor-placement="center-bottom"
+                    data-aos-duration="2000">
+                    <div class="box-turn">
+                        <h3>Estás a un paso de <span>realizar tu sueño.</span></h3>
+                        <p>¿Querés agendar tu turno por videollamada con un doctor DIAF?</p>
+                        <a href="#turns" class="btn btn-primary" data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-bottom">¡SÍ, QUIERO UN TURNO PARA LO ANTES POSIBLE!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-footer">
+        <img class="logo-footer" src="img/logo-footer.png" alt="">
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link nav-img" target="_blank" href="https://www.facebook.com/diaf.estetica">
+                            <img src="img/facebook.svg" alt="Facebook">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-img" target="_blank" href="https://www.instagram.com/diafargentina/">
+                            <img src="img/instagram.svg" alt="Instagram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <p>2021 DIAF. ALL RIGHTS RESERVED.</p>
+    </div>
+    <script src="js/slick.min.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

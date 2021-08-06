@@ -1,0 +1,405 @@
+/*
+ * mixed by Marcexl
+ * version 03082021 
+ * estilos de la pagina thankyou
+ *
+ */
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html,body{
+  font-size: 1rem;
+  margin:0 auto;
+  color: #000;
+  background: #1b2027;
+  font-family: 'Larsseit', sans-serif;
+  letter-spacing: 1px;
+  overflow-x: hidden;
+}
+
+p{
+	margin-bottom: 0;
+  	font-family: 'Larsseit-Light', sans-serif;
+}
+
+
+li{
+	font-family: 'Larsseit-Light', sans-serif;
+	font-size: 1.1rem;
+	line-height: 1.75rem;
+}
+
+strong{
+	font-family: 'Larsseit-Bold', sans-serif;
+}
+
+.bg-diaf{
+	background:#15191f;
+	padding: 20px 30px;
+}
+
+.navbar-dark .navbar-toggler {
+    border: none;
+    outline: none!important;
+    box-shadow: none;
+}
+
+.navbar-dark .navbar-brand{
+	padding: 0;
+}
+
+.navbar-brand img{
+	width: 120px;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+	color: white;
+}
+
+.navbar-expand-lg .navbar-collapse{
+	justify-content: flex-end;
+}
+
+.nav-item{
+	padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+#turno-but{
+	position: relative;
+	margin-top: 7px;
+}
+
+.nav-item a{
+	border-bottom:1px solid transparent;
+	font-family: "Larsseit", sans-serif;
+}
+
+.nav-item a:hover{
+	border-bottom:1px solid white;
+}
+
+.btn-info{
+	background: #00c5cd!important;
+	color: #15191f!important;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.btn-info:hover{
+	background: white!important;
+	border-color:white;
+}
+#header-container{
+	padding: 0;
+	padding-top: 85px;
+}
+
+.center{
+	text-align: center;
+}
+
+#header-container img{
+	width: 100%;
+}
+
+#welcome-container{
+	background:#1b2027;
+	padding: 60px 0;
+	color: white;
+}
+.miscelanea{
+	position: absolute;
+	right: 0;
+	z-index: 1;
+	width: 300px;
+	margin-top: -60px;
+}
+
+.dialog-icon{
+	display: block;
+	max-width: 50px;
+	margin: 0 auto;
+	clear: both;
+	padding: 15px 0 30px 0;
+}
+
+.buenisimo-title{
+	line-height: 4rem;
+}
+
+#welcome-container p{
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+
+h3{
+	font-size: 1.3rem;
+	padding-bottom: 15px;
+	font-family: "Larsseit-Bold", sans-serif;
+}
+
+hr{
+	margin: 60px 0 45px 0;
+}
+
+.sms-row{
+	margin: 30px 0;
+	padding: 10px;
+	background: #15191f;
+	border-radius: .5rem;
+}
+
+.sms-row .col-1{
+	border-right:2px solid #2a2e35;
+}
+
+.sms-row .col{
+	padding: 30px;
+}
+
+.laptop-icon{
+	padding: 30px 10px;
+	max-width: 60px;
+	margin-top: 15px;
+}
+
+.sms-text{
+	color: #afafb2;
+}
+
+.wzp-row p{
+	color: #afafb2;
+	text-align: center;
+}
+
+.link-wzp{
+	color:#05c76d;
+	text-decoration: none!important;
+	font-weight: bold;
+	transition: all .3s;
+}
+
+.link-wzp:hover{
+	color:#31d2f2;
+}
+
+.whatsapp-icon{
+	position: relative;
+	top: 5px;
+	left: 2px;
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background: url("../img/icono-wsp.svg") no-repeat;
+	background-size: 100% 100%;
+}
+
+.hr-small{
+	max-width: 100px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.nos-vemos{
+	text-align: center;
+	padding: 30px 0;
+}
+
+#invitacion{
+	background: #262c36;
+	color: white;
+	padding: 45px 0 60px 0;
+	text-align: center;
+	position: relative;
+}
+
+#invitacion p{
+	font-size: 1.2rem;
+}
+
+#invitacion button{
+	margin:0 auto;
+	margin-top: 20px;
+}
+#seguinos{
+	background: url(../img/banner-bg.jpg) no-repeat;
+	min-height: 400px;
+	background-size: 100%;
+}
+
+#seguinos .seguinos-title{
+	font-family: 'Larsseit-Light',sans-serif;
+	font-size: 2.5rem;
+	color: white;
+	text-align: center;
+	display: block;
+	clear: both;
+	padding: 100px 0 30px 0; 
+}
+
+.black{
+	color: black;
+}
+
+.seguinos-social{
+	display: block;
+	text-align: center;
+}
+
+.facebook-icon{
+	background: url(../img/facebook-banner-icon.svg) no-repeat;
+}
+
+.instagram-icon{
+	background: url(../img/instagram-banner-icon.svg) no-repeat;
+}
+
+.instagram-icon,
+.facebook-icon{
+	display: inline-block;
+	margin: 0 10px;
+	width: 32px;
+	height: 32px;
+	background-size: 100% 100%;
+}
+
+.section-footer{
+	background-color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.section-footer .navbar-nav .nav-item .nav-img img {
+    width: 30px;
+}
+
+.section-footer .logo-footer {
+    width: 120px;
+    margin-bottom: 30px;
+}
+
+.section-footer .navbar-nav {
+    background-color: transparent !important;
+}
+
+.section-footer .navbar-nav {
+    text-align: center;
+    margin: 0px auto;
+}
+.section-footer .navbar-nav .nav-item .nav-img {
+    padding: 0px 10px;
+}
+
+.section-footer .bg-light {
+    background-color: transparent !important;
+}
+
+.section-footer .nav-item{
+	padding: 0;
+}
+
+.section-footer p {
+    margin: 60px 0px 0px;
+    font-size: 12px;
+    color: #111111;
+}
+
+.share-box{
+  display: none;
+  background: rgb(0,0,0,0.8);
+  position: absolute;
+  width: 205px;
+  left: calc(50% - 102.5px);
+  top: 110px;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  border-radius: .5rem;
+  opacity: 1;
+  transform: scale(1);
+  animation-name: shareSlide;
+  animation-delay: 0s;
+  animation-duration: .3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  margin-top: -60px;
+}
+.share-box a{
+	display: inline-block;
+	color: white;
+}
+.share-box a i{
+ font-size: 2rem;
+ transition: all .3s;
+ color: white;
+}
+
+.share-box a i:hover{
+	color:#0fc6ce;
+}
+
+.share-box a i.icon-share{
+  transform: scale(0);
+}
+
+#icon-1,
+#icon-2,
+#icon-3,
+#icon-4{ 
+  animation-name: grow;
+  animation-duration: .3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+#icon-1{
+  animation-delay: 0s;
+}
+#icon-2{
+  animation-delay: .2s;
+}
+#icon-3{
+  animation-delay: .4s;
+}
+#icon-4{
+  animation-delay: .6s;
+}
+
+.kill{
+  opacity: 1;
+  animation-name: kill;
+  animation-duration: .3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  transform: scale(1);
+  margin-top: -90px;
+}
+
+@keyframes shareUp{
+  0% {opacity: 0; transform: scale(0);margin-top: -15px}
+  100% {opacity: 1; transform: scale(1);margin-top: 0px}
+}
+
+@keyframes shareSlide{
+      0%   {opacity:0;margin-top: -60px;}
+    100%  {opacity:1;margin-top:-90px;}
+}
+
+@keyframes grow{
+  0% {transform: scale(0);}
+  100% {transform: scale(1);} 
+}
+
+@keyframes kill{
+  0% {opacity: 1; transform: scale(1);margin-top: -90px}
+  100% {opacity: 0; transform: scale(0);margin-top: -60px}
+}

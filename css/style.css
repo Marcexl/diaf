@@ -1,0 +1,685 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "larsseitbold";
+  src: url("fonts/larsseit-bold-webfont.woff2") format("woff2"), url("fonts/larsseit-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "larsseit_boldbold_italic";
+  src: url("fonts/larsseit-bolditalic-webfont.woff2") format("woff2"), url("fonts/larsseit-bolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "larsseitextrabold";
+  src: url("fonts/larsseit-extrabold-webfont.woff2") format("woff2"), url("fonts/larsseit-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "larsseitextrabold_italic";
+  src: url("fonts/larsseit-extrabolditalic-webfont.woff2") format("woff2"), url("fonts/larsseit-extrabolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "larsseitregular";
+  src: url("fonts/larsseit-italic-webfont.woff2") format("woff2"), url("fonts/larsseit-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "larsseitlight";
+  src: url("fonts/larsseit-light-webfont.woff2") format("woff2"), url("fonts/larsseit-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "larsseitlight_italic";
+  src: url("fonts/larsseit-lightitalic-webfont.woff2") format("woff2"), url("fonts/larsseit-lightitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "larsseitmedium";
+  src: url("fonts/larsseit-medium-webfont.woff2") format("woff2"), url("fonts/larsseit-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "larsseitmedium_italic";
+  src: url("fonts/larsseit-mediumitalic-webfont.woff2") format("woff2"), url("fonts/larsseit-mediumitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "larsseitthin";
+  src: url("fonts/larsseit-thin-webfont.woff2") format("woff2"), url("fonts/larsseit-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "larsseitthin_italic";
+  src: url("fonts/larsseit-thinitalic-webfont.woff2") format("woff2"), url("fonts/larsseit-thinitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "larsseitregular";
+  src: url("fonts/larsseit-webfont.woff2") format("woff2"), url("fonts/larsseit-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.section-nav {
+  background-color: #171d22;
+  z-index: 99;
+  position: fixed;
+}
+.section-nav .navbar {
+  padding: 25px 30px;
+}
+.section-nav .nav {
+  background-color: #171d22;
+}
+.section-nav .nav .navbar-collapse ul li {
+  margin: 0px 10px 0px 10px;
+}
+.section-nav .nav .navbar-collapse ul li a {
+  color: #ffffff;
+}
+.section-nav .nav .navbar-collapse ul li a:hover {
+  color: #e4e4e4;
+}
+.section-nav .nav .navbar-collapse ul li .nav-button {
+  background-color: #0fc3ca;
+  border-radius: 10px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #0fc3ca;
+}
+
+@media screen and (max-width: 990px) {
+  .section-nav .navbar {
+    padding: 25px 30px;
+  }
+  .section-nav .nav {
+    background-color: #171d22;
+  }
+  .section-nav .nav .navbar-collapse ul li {
+    margin: 10px 10px 0px 10px;
+  }
+  .section-nav .nav .navbar-collapse ul li a {
+    color: #ffffff;
+  }
+  .section-nav .nav .navbar-collapse ul li a:hover {
+    color: #e4e4e4;
+  }
+  .section-nav .nav .navbar-collapse ul li .nav-button {
+    background-color: transparent;
+    border-radius: 0px;
+  }
+}
+.section-banner .header-banner {
+  background-image: url(../img/background-primer-scroll.jpg);
+  height: auto;
+  max-height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 90px;
+}
+.section-banner .content-text {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.section-banner .content-text h2 {
+  font-size: 55px;
+  font-family: "larsseitlight";
+  color: #0fc3ca;
+}
+.section-banner .content-text h2 span {
+  color: #ffffff;
+}
+.section-banner .content-text p {
+  font-family: "larsseitmedium";
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 10px;
+  max-width: 570px;
+}
+.section-banner .section-form {
+  background-color: #0fc3ca;
+  border-radius: 20px;
+  padding: 70px 45px;
+  margin-top: 120px;
+  margin-bottom: 95px;
+}
+.section-banner .section-form h3 {
+  color: #111111;
+  font-size: 20px;
+  font-family: "larsseitregular";
+  border-left: 1px solid #111111;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.section-banner .section-form h3 span {
+  font-weight: 900;
+  font-family: "larsseitmedium";
+}
+.section-banner .section-form form {
+  padding: 20px;
+}
+.section-banner .section-form form .form-group {
+  margin: 0px auto;
+  max-width: 345px;
+}
+.section-banner .section-form form .form-control {
+  width: 100%;
+  margin: 0px auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+.section-banner .section-form form ::placeholder {
+  color: #666261;
+  font-size: 15px;
+  font-family: "larsseitregular";
+}
+.section-banner .section-form form button {
+  color: #666261;
+  font-size: 15px;
+  font-family: "larsseitregular";
+  background-color: #111111;
+  color: #ffffff;
+  border-color: #111111;
+  width: 100%;
+  max-width: 345px;
+  padding: 10px 0px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.section-banner .section-form form button:hover {
+  background-color: #171d22;
+  border-color: #e4e4e4;
+  color: #0fc3ca;
+}
+.section-banner .section-form form span {
+  opacity: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .section-banner .header-banner {
+    max-height: 900px;
+  }
+  .section-banner .content-text {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .section-banner .content-text h2 {
+    font-size: 45px;
+  }
+  .section-banner .content-text p {
+    font-size: 18px;
+    margin-top: 10px;
+    max-width: 570px;
+  }
+  .section-banner .section-form {
+    padding: 70px 45px;
+    margin-top: 0px;
+    margin-bottom: 95px;
+    max-width: 445px;
+  }
+  .section-banner .section-form h3 {
+    font-size: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  .section-banner .section-form form {
+    padding: 0px 20px;
+  }
+  .section-banner .section-form form .form-group {
+    margin: 0px auto;
+    max-width: 345px;
+  }
+  .section-banner .section-form form .form-control {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px 10px;
+  }
+  .section-banner .section-form form button {
+    font-size: 15px;
+    max-width: 345px;
+    padding: 10px 0px;
+    margin-top: 10px;
+  }
+}
+.section-steps {
+  padding-top: 90px;
+  background-color: #e4e4e4;
+}
+.section-steps .pad-left {
+  margin-left: 60px;
+}
+.section-steps .pad-right {
+  margin-left: -99px;
+  margin-bottom: 65px;
+}
+.section-steps .step {
+  background-image: url(../img/background-negro.png);
+  height: auto;
+  max-height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 65px;
+  margin-left: 80px;
+  text-align: center;
+  border-radius: 0px 0px 0px 40px;
+  padding: 45px 30px 80px 30px;
+}
+.section-steps .step p {
+  font-size: 30px;
+  font-family: "larsseitlight";
+  color: #ffffff;
+}
+.section-steps .step p span {
+  font-size: 70px;
+  text-align: center;
+}
+.section-steps .step .logo img {
+  min-width: 225px;
+}
+.section-steps .flecha {
+  margin: 0px auto;
+  text-align: center;
+  margin-top: -55px;
+  margin-left: 60px;
+}
+.section-steps .bg-step-0, .section-steps .bg-step-1 {
+  border: 10px solid #ffffff;
+  background-color: #ffffff;
+  margin-top: 30px;
+  -webkit-box-shadow: inset -1px 3px 8px 5px #494747, 13px 15px 16px 0px #757582, 5px 6px 15px -7px rgba(0, 0, 0, 0.13);
+  box-shadow: inset -1px 3px 8px 5px #ffffff, 13px 15px 16px 0px #757582, 5px 6px 15px -7px rgba(0, 0, 0, 0.13);
+}
+.section-steps .bg-step-0 {
+  display: flex;
+  align-items: center;
+  border-radius: 20px 0px 0px 20px;
+}
+.section-steps .bg-step-0 .text-value {
+  padding: 30px 30px 30px 20px;
+}
+.section-steps .bg-step-0 .text-value h4 {
+  font-size: 30px;
+  font-family: "larsseitmedium";
+  color: #0fc3ca;
+}
+.section-steps .bg-step-1 {
+  border-radius: 0px 20px 20px 0px;
+  padding: 20px 60px 20px 60px;
+  border-left: 1px solid #e4e4e4;
+}
+.section-steps .bg-step-1 .text-value p {
+  font-size: 18px;
+  font-family: "larsseitmedium";
+}
+.section-steps .last-space {
+  margin-bottom: 90px;
+}
+
+@media screen and (max-width: 1500px) {
+  .section-steps .pad-left {
+    margin-left: 20px;
+  }
+  .section-steps .pad-right {
+    margin-left: -100px;
+  }
+  .section-steps .zoom img {
+    width: 113%;
+  }
+  .section-steps .step {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .section-steps .pad-left {
+    margin-left: 0px;
+  }
+  .section-steps .pad-right {
+    margin-left: 0px;
+  }
+  .section-steps .step {
+    border-radius: 0px 0px 40px 40px;
+  }
+  .section-steps .zoom img {
+    width: 100%;
+    margin-top: -75px;
+  }
+  .section-steps .step {
+    margin-left: 0px;
+  }
+  .section-steps .flecha {
+    display: none;
+  }
+  .section-steps .bg-step-0 .text-value {
+    padding: 30px 30px 30px 8px;
+  }
+  .section-steps .bg-step-0 .text-value h4 {
+    font-size: 30px;
+    font-family: "larsseitmedium";
+    color: #0fc3ca;
+  }
+  .section-steps .bg-step-1 .text-value p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .section-steps .bg-step-0 .text-value {
+    padding: 30px 30px 30px 27px;
+  }
+  .section-steps .bg-step-0 .text-value h4 {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-steps .bg-step-1 {
+    padding: 18px 20px 0px 20px;
+  }
+}
+.section-why {
+  background-color: #171d22;
+  padding-bottom: 100px;
+}
+.section-why .flecha {
+  width: 100%;
+  text-align: center;
+}
+.section-why .flecha img {
+  margin-top: -50px;
+}
+.section-why .why-text {
+  text-align: center;
+  font-family: "larsseitlight";
+}
+.section-why .why-text h3 {
+  margin-top: 40px;
+  color: #ffffff;
+  font-size: 60px;
+}
+.section-why .why-text h3 span {
+  color: #0fc3ca;
+}
+.section-why .why-text p {
+  color: #e4e4e4;
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.section-why .bg-step-0, .section-why .bg-step-1 {
+  background-color: #111111;
+  color: #ffffff;
+  padding: 34px;
+}
+.section-why .bg-step-0 {
+  display: flex;
+  align-items: center;
+  border-radius: 20px 0px 0px 20px;
+}
+.section-why .bg-step-1 {
+  display: flex;
+  align-items: center;
+  border-radius: 0px 20px 20px 0px;
+}
+.section-why .bg-step-1 .text-value {
+  font-size: 15px;
+}
+.section-why .message {
+  padding-bottom: 0px;
+  padding-top: 10px;
+}
+.section-why .col-xl-6 {
+  padding: 20px 40px;
+}
+.section-why .space-message {
+  margin-top: 120px;
+}
+.section-why .box-text {
+  background-color: #ffffff;
+  border-radius: 20px 0px 0px 20px;
+  height: 430px;
+  padding: 45px;
+}
+.section-why .box-text p {
+  font-size: 22px;
+  color: #111111;
+  font-family: "larsseitregular";
+  margin-top: 90px;
+}
+.section-why .box-img {
+  width: 100%;
+}
+.section-why .box-img .img-doctor {
+  width: 100%;
+}
+.section-why .box-img .img-doctor img {
+  width: 100%;
+  border-radius: 0px 20px 20px 0px;
+  max-height: 430px;
+}
+
+@media screen and (max-width: 1200px) {
+  .section-why .box-text {
+    height: 340px;
+    padding: 45px;
+  }
+  .section-why .box-text p {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .section-why .box-img .img-doctor img {
+    max-height: 340px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .section-why .box-text {
+    height: 340px;
+    padding: 45px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .section-why .box-text p {
+    font-size: 22px;
+    color: #111111;
+    font-family: "larsseitregular";
+    margin-top: 50px;
+  }
+  .section-why .box-img .img-doctor img {
+    max-height: 440px;
+    border-radius: 0px 0px 20px 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section-why .box-text p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .section-why .bg-step-0 {
+    padding: 28px;
+  }
+  .section-why .bg-step-1 .text-value {
+    font-size: 13px;
+  }
+  .section-why .col-xl-6 {
+    padding: 8px 15px;
+  }
+}
+.section-turn {
+  background-image: url(../img/banner-sueño.jpg);
+  height: auto;
+  max-height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px;
+}
+.section-turn .box-turn {
+  padding: 30px;
+  text-align: center;
+}
+.section-turn .box-turn h3 {
+  font-size: 50px;
+  font-family: "larsseitlight";
+  color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.section-turn .box-turn h3 span {
+  color: #111111;
+}
+.section-turn .box-turn p {
+  color: #ffffff;
+  font-family: "larsseitlight";
+  font-size: 20px;
+  margin-bottom: 70px;
+}
+.section-turn .box-turn a {
+  padding: 20px 30px;
+  color: #ffffff;
+  background-color: #111111;
+  border-color: #111111;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-family: "larsseitlight";
+}
+
+@media screen and (max-width: 768px) {
+  .section-turn .box-turn {
+    padding: 10px;
+  }
+  .section-turn .box-turn a {
+    padding: 15px 20px;
+    color: #ffffff;
+    background-color: #111111;
+    border-color: #111111;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .section-turn .box-turn {
+    padding: 0px;
+  }
+  .section-turn .box-turn p {
+    margin-bottom: 50px;
+  }
+  .section-turn .box-turn a {
+    padding: 10px 15px;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .section-turn .box-turn p {
+    margin-bottom: 50px;
+  }
+  .section-turn .box-turn a {
+    padding: 10px 15px;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 9px;
+  }
+}
+.section-banner .header-banner .center {
+  margin: 0px auto;
+  padding-top: 170px;
+  padding-bottom: 170px;
+  text-align: center;
+}
+.section-banner .header-banner .center h2 {
+  font-size: 28px;
+  color: #ffffff;
+}
+.section-banner .header-banner .center p {
+  max-width: 100%;
+}
+
+.section-footer {
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.section-footer .logo-footer {
+  width: 120px;
+  margin-bottom: 30px;
+}
+.section-footer .collapse:not(.show) {
+  display: block;
+}
+.section-footer .navbar-nav {
+  text-align: center;
+  margin: 0px auto;
+}
+.section-footer .navbar-nav {
+  background-color: transparent !important;
+}
+.section-footer .navbar-nav .nav-item .nav-link {
+  color: #111111;
+  font-size: 13px;
+  font-family: "larsseitlight";
+}
+.section-footer .navbar-nav .nav-item .nav-img {
+  padding: 0px 10px;
+}
+.section-footer .navbar-nav .nav-item .nav-img img {
+  width: 30px;
+}
+.section-footer .navbar-nav .nav-item .nav-img .svg {
+  fill: #0fc3ca;
+}
+.section-footer .bg-light {
+  background-color: transparent !important;
+}
+.section-footer p {
+  margin: 60px 0px 0px;
+  font-family: "larsseitlight";
+  font-size: 12px;
+  color: #111111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.no-gutter.row,
+.no-gutter.container,
+.no-gutter.container-fluid {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*# sourceMappingURL=style.css.map */

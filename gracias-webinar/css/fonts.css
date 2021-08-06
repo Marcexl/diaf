@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Larsseit;
+    src: url("../fonts/Larsseit.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Larsseit-BoldItalic;
+    font-weight: bold;
+    src: url("../fonts/Larsseit-BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Larsseit-Bold;
+    font-weight: bold;
+    src: url("../fonts/Larsseit-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Larsseit-ExtraBold;
+    font-weight: bold;
+    src: url("../fonts/Larsseit-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Larsseit-ExtraBoldItalic;
+    font-weight: bold;
+    src: url("../fonts/Larsseit-ExtraBoldItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Larsseit-ExtraBoldItalic;
+    font-weight: bold;
+    src: url("../fonts/Larsseit-ExtraBoldItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Larsseit-Light;
+    font-weight: bold;
+    src: url("../fonts/Larsseit-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Larsseit-LightItalic;
+    font-weight: bold;
+    src: url("../fonts/Larsseit-LightItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Larsseit-Medium;
+    font-weight: bold;
+    src: url("../fonts/Larsseit-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Larsseit-MediumItalic;
+    font-weight: bold;
+    src: url("../fonts/Larsseit-MediumItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Larsseit-Thin;
+    font-weight: bold;
+    src: url("../fonts/Larsseit-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Larsseit-ThinItalic;
+    font-weight: bold;
+    src: url("../fonts/Larsseit-ThinItalic.otf") format("opentype");
+}
